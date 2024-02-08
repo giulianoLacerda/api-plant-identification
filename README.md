@@ -76,7 +76,7 @@ gcloud run deploy api-plant-segmentation \
 
 ### Request
 
-To perform a classification, make a POST request to the address [http://localhost:9191/v1/segment](http://localhost:9191/v1/segment) passing the following json as an example in the body of the request:
+To perform a segmentation, make a POST request to the address [http://localhost:9191/v1/segment](http://localhost:9191/v1/segment) passing the following json as an example in the body of the request:
 
 There is a notebbok (/notebooks/RequestAPI.ipynb) with easy requests.
 
