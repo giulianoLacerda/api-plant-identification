@@ -1,0 +1,3 @@
+MODE_DEPLOY: prod
+TAG: "1.0.0"
+PORT_SERVER: "8080"

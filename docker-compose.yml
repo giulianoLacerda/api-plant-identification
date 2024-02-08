@@ -1,0 +1,15 @@
+version: '2.3'
+services:
+  server:
+    container_name: plant_segmentation
+    env_file: .env 
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - MODE_DEPLOY=${MODE_DEPLOY}
+        - PORT_SERVER=${PORT_SERVER}
+    ports:
+      - "${PORT_SERVER}:${PORT_SERVER}"
+    stdin_open: true
+    tty: true

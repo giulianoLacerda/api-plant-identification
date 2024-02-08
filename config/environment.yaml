@@ -1,0 +1,9 @@
+prod:
+  app_name: api-plant-segmentation
+  model_stage: Production
+  MODE_DEPLOY: prod
+
+dev:
+  app_name: api-plant-segmentation
+  model_stage: Archived
+  MODE_DEPLOY: dev
